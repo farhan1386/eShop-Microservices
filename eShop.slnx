@@ -9,7 +9,7 @@
     <Project Path="Infrastructure/eShop.Shared/eShop.Shared.csproj" />
   </Folder>
   <Folder Name="/Services/" />
-  <Folder Name="/Services/AuthService/" Id="378295af-c144-6721-7cff-8de6e58ed8c7">
+  <Folder Name="/Services/AuthService/">
     <Project Path="Services/AuthService/eShop.AuthService.API/eShop.AuthService.API.csproj" />
     <Project Path="Services/AuthService/eShop.AuthService.BusinessLogic/eShop.AuthService.BusinessLogic.csproj" />
     <Project Path="Services/AuthService/eShop.AuthService.Database/eShop.AuthService.Database.sqlproj" Id="c939a602-36cf-43d9-82f5-0fe2aa536583">
@@ -19,7 +19,7 @@
     <Project Path="Services/AuthService/eShop.AuthService.Models/eShop.AuthService.Models.csproj" />
     <Project Path="Services/AuthService/eShop.AuthService.Tests/eShop.AuthService.Tests.csproj" />
   </Folder>
-  <Folder Name="/Services/CartService/" Id="fba56fd8-548b-9ce3-2e47-cd23e0438814">
+  <Folder Name="/Services/CartService/">
     <Project Path="Services/CartService/eShop.CartService.API/eShop.CartService.API.csproj" />
     <Project Path="Services/CartService/eShop.CartService.BusinessLogic/eShop.CartService.BusinessLogic.csproj" />
     <Project Path="Services/CartService/eShop.CartService.Database/eShop.CartService.Database.sqlproj" Id="64468e2a-3e8a-45b9-8893-f63e31900f78">
@@ -82,7 +82,7 @@
     <Project Path="Services/ProductService/eShop.ProductService.Models/eShop.ProductService.Models.csproj" />
     <Project Path="Services/ProductService/eShop.ProductService.Tests/eShop.ProductService.Tests.csproj" />
   </Folder>
-  <Folder Name="/Services/ShippingService/" Id="02ce1a19-293f-1b18-f843-d7f1d90a9011">
+  <Folder Name="/Services/ShippingService/">
     <Project Path="Services/ShippingService/eShop.ShippingService.API/eShop.ShippingService.API.csproj" />
     <Project Path="Services/ShippingService/eShop.ShippingService.BusinessLogic/eShop.ShippingService.BusinessLogic.csproj" />
     <Project Path="Services/ShippingService/eShop.ShippingService.Database/eShop.ShippingService.Database.sqlproj" Id="ccbfb3d2-3f72-4083-91e3-b67d0a09b68a">
@@ -91,5 +91,8 @@
     </Project>
     <Project Path="Services/ShippingService/eShop.ShippingService.Models/eShop.ShippingService.Models.csproj" />
     <Project Path="Services/ShippingService/eShop.ShippingService.Tests/eShop.ShippingService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
   </Folder>
 </Solution>
