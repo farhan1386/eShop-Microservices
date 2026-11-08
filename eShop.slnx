@@ -1,0 +1,95 @@
+<Solution>
+  <Folder Name="/Deployment/" />
+  <Folder Name="/Gateways/">
+    <Project Path="Gateways/eShop.APIGateway/eShop.APIGateway.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/eShop.Contracts/eShop.Contracts.csproj" />
+    <Project Path="Infrastructure/eShop.EventBus/eShop.EventBus.csproj" />
+    <Project Path="Infrastructure/eShop.Shared/eShop.Shared.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/AuthService/" Id="378295af-c144-6721-7cff-8de6e58ed8c7">
+    <Project Path="Services/AuthService/eShop.AuthService.API/eShop.AuthService.API.csproj" />
+    <Project Path="Services/AuthService/eShop.AuthService.BusinessLogic/eShop.AuthService.BusinessLogic.csproj" />
+    <Project Path="Services/AuthService/eShop.AuthService.Database/eShop.AuthService.Database.sqlproj" Id="c939a602-36cf-43d9-82f5-0fe2aa536583">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/AuthService/eShop.AuthService.Models/eShop.AuthService.Models.csproj" />
+    <Project Path="Services/AuthService/eShop.AuthService.Tests/eShop.AuthService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/CartService/" Id="fba56fd8-548b-9ce3-2e47-cd23e0438814">
+    <Project Path="Services/CartService/eShop.CartService.API/eShop.CartService.API.csproj" />
+    <Project Path="Services/CartService/eShop.CartService.BusinessLogic/eShop.CartService.BusinessLogic.csproj" />
+    <Project Path="Services/CartService/eShop.CartService.Database/eShop.CartService.Database.sqlproj" Id="64468e2a-3e8a-45b9-8893-f63e31900f78">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/CartService/eShop.CartService.Models/eShop.CartService.Models.csproj" />
+    <Project Path="Services/CartService/eShop.CartService.Tests/eShop.CartService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/CustomerService/">
+    <Project Path="Services/CustomerService/eShop.CustomerService.API/eShop.CustomerService.API.csproj" />
+    <Project Path="Services/CustomerService/eShop.CustomerService.BusinessLogic/eShop.CustomerService.BusinessLogic.csproj" />
+    <Project Path="Services/CustomerService/eShop.CustomerService.Database/eShop.CustomerService.Database.sqlproj" Id="f24e1840-4b44-481d-9aad-18021b8b39a8">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/CustomerService/eShop.CustomerService.Models/eShop.CustomerService.Models.csproj" />
+    <Project Path="Services/CustomerService/eShop.CustomerService.Tests/eShop.CustomerService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/InventoryService/">
+    <Project Path="Services/InventoryService/eShop.InventoryService.API/eShop.InventoryService.API.csproj" />
+    <Project Path="Services/InventoryService/eShop.InventoryService.BusinessLogic/eShop.InventoryService.BusinessLogic.csproj" />
+    <Project Path="Services/InventoryService/eShop.InventoryService.Database/eShop.InventoryService.Database.sqlproj" Id="846e9c3f-08ef-4df7-982a-2c6dd58806e3">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/InventoryService/eShop.InventoryService.Models/eShop.InventoryService.Models.csproj" />
+    <Project Path="Services/InventoryService/eShop.InventoryService.Tests/eShop.InventoryService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/NotificationService/">
+    <Project Path="Services/NotificationService/eShop.NotificationService.Worker/eShop.NotificationService.Worker.csproj" />
+  </Folder>
+  <Folder Name="/Services/OrderService/">
+    <Project Path="Services/OrderService/eShop.OrderService.API/eShop.OrderService.API.csproj" />
+    <Project Path="Services/OrderService/eShop.OrderService.BusinessLogic/eShop.OrderService.BusinessLogic.csproj" />
+    <Project Path="Services/OrderService/eShop.OrderService.Database/eShop.OrderService.Database.sqlproj" Id="6ba4f71d-b067-4dac-b64b-627926c3fa5c">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/OrderService/eShop.OrderService.Models/eShop.OrderService.Models.csproj" />
+    <Project Path="Services/OrderService/eShop.OrderService.Tests/eShop.OrderService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/PaymentService/">
+    <Project Path="Services/PaymentService/eShop.PaymentService.API/eShop.PaymentService.API.csproj" />
+    <Project Path="Services/PaymentService/eShop.PaymentService.BusinessLogic/eShop.PaymentService.BusinessLogic.csproj" />
+    <Project Path="Services/PaymentService/eShop.PaymentService.Database/eShop.PaymentService.Database.sqlproj" Id="6bbeed9d-d208-465c-95c6-9590ff334007">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/PaymentService/eShop.PaymentService.Models/eShop.PaymentService.Models.csproj" />
+    <Project Path="Services/PaymentService/eShop.PaymentService.Tests/eShop.PaymentService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/ProductService/">
+    <Project Path="Services/ProductService/eShop.ProductService.API/eShop.ProductService.API.csproj" />
+    <Project Path="Services/ProductService/eShop.ProductService.BusinessLogic/eShop.ProductService.BusinessLogic.csproj" />
+    <Project Path="Services/ProductService/eShop.ProductService.Database/eShop.ProductService.Database.sqlproj" Id="b4105c97-7618-4297-8eb1-28310e225d2f">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/ProductService/eShop.ProductService.Models/eShop.ProductService.Models.csproj" />
+    <Project Path="Services/ProductService/eShop.ProductService.Tests/eShop.ProductService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Services/ShippingService/" Id="02ce1a19-293f-1b18-f843-d7f1d90a9011">
+    <Project Path="Services/ShippingService/eShop.ShippingService.API/eShop.ShippingService.API.csproj" />
+    <Project Path="Services/ShippingService/eShop.ShippingService.BusinessLogic/eShop.ShippingService.BusinessLogic.csproj" />
+    <Project Path="Services/ShippingService/eShop.ShippingService.Database/eShop.ShippingService.Database.sqlproj" Id="ccbfb3d2-3f72-4083-91e3-b67d0a09b68a">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="Services/ShippingService/eShop.ShippingService.Models/eShop.ShippingService.Models.csproj" />
+    <Project Path="Services/ShippingService/eShop.ShippingService.Tests/eShop.ShippingService.Tests.csproj" />
+  </Folder>
+</Solution>
